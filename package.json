@@ -1,0 +1,16 @@
+{
+  "name": "patreon_iran",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "docs:validate": "node tools/docs-validator/validate.js",
+    "phase:run": "bash tools/phase-runner/run.sh",
+    "lint": "echo \"TODO: lint\"",
+    "typecheck": "echo \"TODO: typecheck\"",
+    "test:unit": "echo \"TODO: unit tests\"",
+    "test:integration": "echo \"TODO: integration tests\"",
+    "test:e2e": "echo \"TODO: e2e tests\"",
+    "security:scan": "echo \"TODO: security scan\""
+  }
+}
