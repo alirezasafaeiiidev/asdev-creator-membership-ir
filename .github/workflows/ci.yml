@@ -17,35 +17,6 @@ jobs:
   quality-gates:
     runs-on: ubuntu-latest
 
-    services:
-      postgres:
-        image: postgres:16-alpine
-        env:
-          POSTGRES_USER: pli
-          POSTGRES_PASSWORD: pli
-          POSTGRES_DB: pli
-        ports:
-          - 5432:5432
-        options: >-
-          --health-cmd="pg_isready -U pli"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
-
-      minio:
-        image: minio/minio:RELEASE.2024-12-18T18-04-18Z
-        env:
-          MINIO_ROOT_USER: minio
-          MINIO_ROOT_PASSWORD: minio123456
-        ports:
-          - 9000:9000
-        options: >-
-          --health-cmd="curl -f http://localhost:9000/minio/health/live || exit 1"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
-        command: server /data
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -73,12 +44,7 @@ jobs:
       - name: Unit tests
         run: pnpm -w test:unit
 
-      - name: Integration tests (DB + MinIO)
-        env:
-          DATABASE_URL: postgresql://pli:pli@localhost:5432/pli
-          MINIO_ENDPOINT: http://localhost:9000
-          MINIO_ACCESS_KEY: minio
-          MINIO_SECRET_KEY: minio123456
+      - name: Integration tests
         run: pnpm -w test:integration
 
       - name: E2E tests
