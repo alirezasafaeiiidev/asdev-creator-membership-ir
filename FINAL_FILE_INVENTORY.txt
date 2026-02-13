@@ -21,6 +21,8 @@ docs/ARCHITECTURE/09_Admin_Analytics_Monitoring.md
 docs/ARCHITECTURE/10_Search_Filtering.md
 docs/ARCHITECTURE/Error_Codes.md
 docs/ARCHITECTURE/RBAC_Matrix.md
+docs/ARCHITECTURE_DECISIONS/ADR-0001-phase-runner-safe-push-default.md
+docs/ARCHITECTURE_DECISIONS/ADR-0002-local-compose-scope-and-contract-first.md
 docs/ARCHITECTURE_DECISIONS/ADR-TEMPLATE.md
 docs/CODE_OWNERSHIP.md
 docs/CONTRIBUTING.md
@@ -66,6 +68,16 @@ ops/scripts/backup_db.sh
 ops/scripts/restore_db.sh
 package.json
 pnpm-workspace.yaml
+snapshots/P0/manifest.json
+snapshots/P0/report.md
+snapshots/P1/manifest.json
+snapshots/P1/report.md
+snapshots/P2/manifest.json
+snapshots/P2/report.md
+snapshots/P3/manifest.json
+snapshots/P3/report.md
+snapshots/RELEASE/manifest.json
+snapshots/RELEASE/report.md
 tasks/templates/P0_next.md
 tasks/templates/P1_next.md
 tasks/templates/P2_next.md
