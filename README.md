@@ -49,3 +49,10 @@ pnpm -w phase:run P0
 Push به remote فقط وقتی انجام می شود که runner را با `PHASE_RUNNER_PUSH=1` اجرا کنید.
 
 نسخه: 2026-02-13
+
+## برندینگ
+- Built by Alireza Safaei (ASDEV)
+- الزامات برندینگ و SEO صفحه برند: `docs/FRONTEND/04_Branding_Contract.md`
+
+## گزارش اجرا
+- `docs/reports/PHASE_4_STANDARDIZATION_REPORT.md`

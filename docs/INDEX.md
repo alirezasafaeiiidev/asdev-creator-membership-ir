@@ -35,6 +35,7 @@
 - `docs/FRONTEND/01_UI_UX_Standards.md`
 - `docs/FRONTEND/02_SEO_Strategy.md`
 - `docs/FRONTEND/03_Search_Filter_UX.md`
+- `docs/FRONTEND/04_Branding_Contract.md`
 
 ## 5) توسعه و کیفیت
 - `docs/DEVELOPMENT/01_Local_Dev.md`
@@ -61,3 +62,6 @@
 - `docs/POLICIES/BRANCH_RELEASE_POLICY.md`
 - `.github/CODEOWNERS`
 - `.github/pull_request_template.md`
+
+## 8) گزارش اجرا
+- `docs/reports/PHASE_4_STANDARDIZATION_REPORT.md`
