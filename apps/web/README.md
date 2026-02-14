@@ -14,3 +14,4 @@
 - بدون CDN در runtime
 - self-host static assets/fonts
 - رعایت استانداردهای `docs/FRONTEND/*`
+- رعایت قرارداد برندینگ `docs/FRONTEND/04_Branding_Contract.md`
