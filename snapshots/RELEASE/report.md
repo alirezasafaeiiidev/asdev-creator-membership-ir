@@ -1,10 +1,10 @@
 # گزارش فاز RELEASE — Release Snapshot & Verification
-زمان (UTC): 2026-02-16T22:07:03Z
+زمان (UTC): 2026-02-16T22:17:05Z
 
 ## Git
 - branch: `main`
-- commit: `c655fce123479dd79af4d95fa245fdfb2974ba41`
-- tag: `phase-RELEASE-20260216-220703`
+- commit: `4c8ce48b30194a411c040ad8ed62af96dcfd402c`
+- tag: `phase-RELEASE-20260216-221705`
 
 ## Gate Results
 - **docs_validate**: OK — `22` ms — `node tools/docs-validator/validate.js`
